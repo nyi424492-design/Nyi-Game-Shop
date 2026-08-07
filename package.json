@@ -1,4 +1,7 @@
 {
+  "name": "nyi-game-shop",
+  "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite",
@@ -11,4 +14,4 @@
     "react-dom": "latest",
     "react-router-dom": "latest"
   }
-} 
+}
