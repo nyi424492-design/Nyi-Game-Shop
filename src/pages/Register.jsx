@@ -72,4 +72,47 @@ className="bg-zinc-900 p-3 mt-5 w-full rounded"
 
 placeholder="Phone Number"
 
-onChange={(e)=>setPhone(e.target.value)}
+onChange={(e)=>setPhone(e.target.value)}/>
+<input
+className="bg-zinc-900 p-3 mt-3 w-full rounded"
+placeholder="Password"
+type="password"
+onChange={(e)=>setPassword(e.target.value)}
+
+/>
+
+
+<button
+
+className="bg-yellow-500 text-black p-3 mt-5 w-full rounded"
+
+onClick={register}
+
+>
+
+Create Account
+
+</button>
+
+
+<button
+
+className="mt-3 text-yellow-400"
+
+onClick={()=>navigate("/login")}
+
+>
+
+Already have account? Login
+
+</button>
+
+
+</div>
+
+)
+
+}
+
+
+export default Register;
